@@ -1,0 +1,120 @@
+﻿* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family:sans-serif;
+    font-size:.85em;
+}
+input, button {
+    outline:none;
+}
+input[type="text"] {
+    padding:3px;
+    border:1px solid #000;
+}
+input[type="text"]:focus {
+    border: 1px solid #33bb00;
+}
+
+a.button,
+input[type="submit"],
+button {
+    padding:10px 30px;
+    color: #fff;
+    background-color: #278781;
+    border: 1px solid #fff;
+    font-weight: bold;
+}
+    a.button,
+    input[type="submit"]:focus,
+    button:focus {
+        border: 1px solid #33bb00;
+    }
+
+#wrap {
+    width:600px;
+    margin:0 auto;
+    border:1px solid #278781;
+}
+
+#header {
+    padding: 10px 20px;
+    color:#fff;
+    background-color: #278781;
+}
+
+#content {
+    padding:10px;
+}
+
+
+#footer {
+    padding:10px 20px;
+    clear:both;
+    background-color: #278781;
+}
+
+    #footer p {
+        color:#fff;
+        font-weight:normal;
+        font-size:.8em;
+    }
+
+/*
+    
+*/
+#ContactContainer {
+    float:left;
+    width:100%;
+    margin-bottom:15px;
+    border-bottom: 1px solid #000;
+}
+.ContactRow {
+    float: left;
+    width: 100%;
+    background-color:#dcf1f0;
+}
+.ContactRow:nth-child(2n+1) {
+    background-color:#bddedc;
+}
+.ContactCol {
+    float: left;
+    padding: 3px 6px;
+    overflow:hidden;
+}
+
+.FirstName {
+    width: 110px;
+}
+.LastName {
+    width: 110px;
+}
+.Email {
+    width: 250px;
+}
+.Options {
+    width:60px;
+}
+
+#NewContactForm {
+    float:left;
+    clear:both;
+}
+.formrow {
+    float:left;
+    width:100%;
+    margin-bottom:5px;
+}
+
+    .formrow label {
+        float:left;
+        width:100px;
+        font-weight:bold;
+    }
+    .formrow input[type="text"] {
+        float:left;
+        width:200px;
+        padding:3px 6px;
+    }
